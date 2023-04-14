@@ -1,6 +1,6 @@
 package stepdefinitions;
 
-import io.cucumber.java.en.And;
+import com.codeborne.selenide.Configuration;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 
@@ -11,30 +11,30 @@ public class CommonStepDefinitions {
     @Given("kullanici {string} adresine gider")
     public void kullanici_adresine_gider(String string) {
         open(string);
-        // Bir sayfaya gitmek için open() metdodu kullanılıyor. driver.get yerine
     }
-
-    @And("{int} saniye bekler")
-    public void saniyeBekler(int arg0) {
-        sleep(arg0*1000);
+    @Then("{int} saniye bekler")
+    public void saniye_bekler(Integer int1) {
+//        selenide default olarak 4 saniye bekler
+//        4 saniyeden fazla beklemek icin sleep metotu kullanilir
+//        sleep foncsiyonu millisecond kabul eder. saniyeye cevirmek icin 1000 ile carpilir
+        sleep(int1*1000);
     }
-
     @Then("onceki sayfaya gider")
-    public void oncekiSayfayaGider() {
+    public void onceki_sayfaya_gider() {
         back();
     }
-
     @Then("sonraki sayfaya gider")
-    public void sonrakiSayfayaGider() {
+    public void sonraki_sayfaya_gider() {
         forward();
     }
-
     @Then("sayfayi yeniler")
-    public void sayfayiYeniler() {
+    public void sayfayi_yeniler() {
         refresh();
     }
-
     @Then("sayfayi acik tutar")
-    public void sayfayiAcikTutar() {
+    public void sayfayi_acik_tutar() {
+//        Varyasilan selenide ayarlarinda, browser otomatik kapanmakdadir
+//        Configuration.holdBrowserOpen=false;//VARSAYILAN
+        Configuration.holdBrowserOpen=true;
     }
 }
