@@ -22,4 +22,18 @@ public class TestCenterPage {
     public SelenideElement red = $(By.id("red"));
     public SelenideElement football = $(By.id("football"));
 
+//    DROPDOWN ELEMENTLERI
+    public SelenideElement yil = $(By.id("year"));
+    public SelenideElement ay = $(By.id("month"));
+    public SelenideElement gun = $(By.id("day"));
+
+//    ALERT ELEMENTLERI
+    public SelenideElement promptButton = $(By.xpath("//button[@onclick='jsPrompt()']"));
+    public SelenideElement sonuc = $("#result");
+
+//    FRAME ELEMENTLERI
+    public SelenideElement techProLink = $(By.xpath("//a[@type='button']"));
+
+
+
 }
