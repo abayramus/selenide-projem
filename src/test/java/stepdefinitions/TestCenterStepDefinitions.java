@@ -1,7 +1,8 @@
 package stepdefinitions;
 
+
 import com.codeborne.selenide.Selenide;
-import com.codeborne.selenide.WebDriverRunner;
+
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -12,7 +13,7 @@ import pages.TestCenterPage;
 import java.time.Duration;
 
 import static com.codeborne.selenide.Condition.*;
-import static com.codeborne.selenide.Selenide.switchTo;
+import static com.codeborne.selenide.Selenide.*;
 import static com.codeborne.selenide.WebDriverRunner.url;
 import static java.lang.Thread.sleep;
 
@@ -78,6 +79,7 @@ public class TestCenterStepDefinitions {
         testCenterPage.yil.selectOptionByValue(String.valueOf(yil));//VALUE = "2000". CALISIR
 
         sleep(3000); //HARD WAIT
+        Selenide.sleep(3000);
 
         testCenterPage.ay.selectOption(ay);//GORUNEN METIN ILE SEC ="June". POPULER.
 
@@ -133,5 +135,72 @@ public class TestCenterStepDefinitions {
         System.out.println("Yeni pencereye gecil yapildi");
         Thread.sleep(3000);
         System.out.println("YENI SAYFA URL I : "+url());//YENI SAYFA URL NI VERECEKDIR
+    }
+
+    @And("kullanici source elementi target elementine surukler")
+    public void kullaniciSourceElementiTargetElementineSurukler() {
+//        SELENIUM
+//        Actions actions = new Actions();
+//        SELENIDE KISACA actions()
+
+//        1. dragAndDrop
+        actions()
+                .dragAndDrop(testCenterPage.kaynak,testCenterPage.hedef)//kaynak elementi hedefe surukle
+                .build()//baglantiyi olustur(OPTIONAL)
+                .perform();//verilen komutlari yap(ZORUNLU)
+
+    }
+
+
+    @And("kullanici source elementini {int} by {int} koordinatlarina surukler")
+    public void kullaniciSourceElementiniByKoordinatlarinaSurukler(int arg0, int arg1) {
+        actions()
+                .dragAndDropBy(testCenterPage.kaynak,arg0,arg1)
+                .build()
+                .perform();
+    }
+
+    @And("verilen coordinatlara {int} by {int} suruklendigini dogrular")
+    public void verilenCoordinatlaraBySuruklendiginiDogrular(int arg0, int arg1) {
+        String styleValue = testCenterPage.kaynak.getAttribute("style");
+        System.out.println(styleValue);
+        Assert.assertTrue(styleValue.contains(String.valueOf(arg0))&&styleValue.contains(String.valueOf(arg1)));
+    }
+
+    @And("start butonuna tiklar")
+    public void startButonunaTiklar() {
+        testCenterPage.startButton.click();
+    }
+
+    @Then("kullanici {string} metnini dogrular")
+    public void kullaniciMetniniDogrular(String arg0) {
+//        Assert.assertEquals(arg0,testCenterPage.helloWorld.getText());//FAIL. WAIT PROBLEMI.
+
+//        1. WebDriverWait
+//        WebDriverWait wait = new WebDriverWait(WebDriverRunner.getWebDriver(),Duration.ofSeconds(10));
+//        wait.until(ExpectedConditions.visibilityOf(testCenterPage.helloWorld));//EXPLICIT WAIT
+//        Assert.assertEquals(arg0,testCenterPage.helloWorld.getText());//PASS. EXPLICIT WAIT ILE PROBLEM COZULDU
+
+//        2. Selenide Wait
+//        testCenterPage.helloWorld.should(visible,Duration.ofSeconds(10));//SELENIDE WAIT
+//        Assert.assertEquals(arg0,testCenterPage.helloWorld.getText());
+
+
+//        3. Selenide Wait
+        testCenterPage.helloWorld.shouldHave(text("Hello World!"),Duration.ofSeconds(10));//SELENIDE WAIT
+    }
+
+
+    @And("google image goruntusunu al")
+    public void googleImageGoruntusunuAl() {
+        testCenterPage.googleImage.screenshot();
+    }
+
+    @And("footer elementi gorunur sekilde goster")
+    public void footerElementiGorunurSekildeGoster() {
+//        testCenterPage.amazonFooter
+        executeJavaScript("arguments[0].scrollIntoView(true);",testCenterPage.amazonFooter);
+
+
     }
 }

@@ -142,6 +142,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pages/TestCenterPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/TestCenterPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/runners/Runners.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runners/Runners.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefinitions/CommonStepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/CommonStepDefinitions.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/stepdefinitions/TestCenterStepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/TestCenterStepDefinitions.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../testNGframework/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../testNGframework/.idea/.gitignore" beforeDir="false" />
@@ -188,15 +189,15 @@
   }
 }</component>
   <component name="RunManager" selected="JUnit.Runners">
-    <configuration name="Scenario: TC01 iframe ve window" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: TC01 drag and drop" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/06_iframe_multiplewindow.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/07_actions.feature" />
       <option name="GLUE" value="stepdefinitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="selenide-projem" />
-      <option name="NAME_FILTER" value="^TC01 iframe ve window$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^TC01 iframe ve window$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: TC01 iframe ve window" />
+      <option name="NAME_FILTER" value="^TC01 drag and drop$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^TC01 drag and drop$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: TC01 drag and drop" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -208,15 +209,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: TC01 locators" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: TC01 headless" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/02_locators.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/10_cross_browser.feature" />
       <option name="GLUE" value="stepdefinitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="selenide-projem" />
-      <option name="NAME_FILTER" value="^TC01 locators$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^TC01 locators$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: TC01 locators" />
+      <option name="NAME_FILTER" value="^TC01 headless$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^TC01 headless$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: TC01 headless" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -228,15 +229,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: TC02 radio" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: explicit wait" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/03_checkbox_radiobutton.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/08_explicitwait.feature" />
       <option name="GLUE" value="stepdefinitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="selenide-projem" />
-      <option name="NAME_FILTER" value="^TC02 radio$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^TC02 radio$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: TC02 radio" />
+      <option name="NAME_FILTER" value="^explicit wait$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^explicit wait$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: explicit wait" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -248,15 +249,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: TC03 radio" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: tum ekran goruntusu" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/03_checkbox_radiobutton.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/09_screenshots.feature" />
       <option name="GLUE" value="stepdefinitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="selenide-projem" />
-      <option name="NAME_FILTER" value="^TC03 radio$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^TC03 radio$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: TC03 radio" />
+      <option name="NAME_FILTER" value="^tum ekran goruntusu$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^tum ekran goruntusu$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: tum ekran goruntusu" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -286,10 +287,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.Runners" />
-        <item itemvalue="Cucumber Java.Scenario: TC01 iframe ve window" />
-        <item itemvalue="Cucumber Java.Scenario: TC03 radio" />
-        <item itemvalue="Cucumber Java.Scenario: TC02 radio" />
-        <item itemvalue="Cucumber Java.Scenario: TC01 locators" />
+        <item itemvalue="Cucumber Java.Scenario: TC01 headless" />
+        <item itemvalue="Cucumber Java.Scenario: tum ekran goruntusu" />
+        <item itemvalue="Cucumber Java.Scenario: explicit wait" />
+        <item itemvalue="Cucumber Java.Scenario: TC01 drag and drop" />
       </list>
     </recent_temporary>
   </component>

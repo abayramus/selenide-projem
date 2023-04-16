@@ -34,6 +34,19 @@ public class TestCenterPage {
 //    FRAME ELEMENTLERI
     public SelenideElement techProLink = $(By.xpath("//a[@type='button']"));
 
+//    ACTIONS ELEMENTLERI
+    public SelenideElement kaynak = $("#draggable");
+    public SelenideElement hedef = $("#droppable");
+
+//    EXPLICIT ELEMENTLERI
+    public SelenideElement startButton = $(By.xpath("//div[@id='start']//button"));
+    public SelenideElement helloWorld =$(By.xpath("//div[@id='finish']//h4"));
+
+//    SCREENSHOT
+    public SelenideElement googleImage = $(".lnXdpd");
+
+//    JS EXECUTOR
+    public SelenideElement amazonFooter =$(".navFooterMoreOnAmazon");
 
 
 }
