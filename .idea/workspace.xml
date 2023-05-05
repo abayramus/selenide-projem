@@ -49,6 +49,14 @@
       <change afterPath="$PROJECT_DIR$/../mycucumberproject/src/test/resources/features/day20_parameterizing_feature_file.feature" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../mycucumberproject/src/test/resources/features/day20_scenario_outline1.feature" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../mytestNGproject.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../playwright-cucumber-docs/src/test/java/pages/TestCenterPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../playwright-cucumber-docs/src/test/java/runners/Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../playwright-cucumber-docs/src/test/java/stepdefinitions/CommonStepDefinitions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../playwright-cucumber-docs/src/test/java/stepdefinitions/TestCenterStepDefs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../playwright-cucumber-docs/src/test/java/utilities/TestBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../playwright-cucumber-docs/src/test/resources/features/01_navigations.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../playwright-cucumber-docs/src/test/resources/features/02_test_base.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../playwright-cucumber-docs/src/test/resources/features/03_locators.feature" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../pom.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../testNGProject/src/test/java/techproed/tests/Day16_DependsOnMethods.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../testNGProject/src/test/java/techproed/tests/Day16_SoftAssert.java" afterDir="false" />
@@ -119,31 +127,29 @@
       <change beforePath="$PROJECT_DIR$/../mymavenproject1/src/test/java/com/techproed/FirstMavenClass.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../mymavenproject1/src/test/java/com/techproed/RadioButton.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../mymavenproject1/src/test/java/com/techproed/SignInHomework.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myseleniumproject/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../myseleniumproject/.idea/dbnavigator.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myseleniumproject/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../myseleniumproject/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../myseleniumproject/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../myseleniumproject/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../myseleniumproject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../myseleniumproject/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../myseleniumproject/drivers/chromedriver" beforeDir="false" afterPath="$PROJECT_DIR$/../myseleniumproject/drivers/chromedriver" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../myseleniumproject/drivers/geckodriver" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../myseleniumproject/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../myseleniumproject/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myseleniumproject/src/test/java/com/myfirstproject/Day01_BasicNavigations.java" beforeDir="false" afterPath="$PROJECT_DIR$/../myseleniumproject/src/test/java/com/myfirstproject/Day01_BasicNavigations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myseleniumproject/src/test/java/com/myfirstproject/Day01_BasicNavigations.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../myseleniumproject/src/test/java/com/myfirstproject/Day02_FirefoxBrowserDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myseleniumproject/src/test/java/com/myfirstproject/Day02_GetPageSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/../myseleniumproject/src/test/java/com/myfirstproject/Day02_GetPageSource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myseleniumproject/src/test/java/com/myfirstproject/Day02_GetPageSource.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../myseleniumproject/src/test/java/com/myfirstproject/Day02_ThreadSleep.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../myseleniumproject/src/test/java/com/myfirstproject/Day02_VerifyTitleTest.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../myseleniumproject/src/test/java/com/myfirstproject/Day02_VerifyURLTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myseleniumproject/src/test/java/com/myfirstproject/FirstSeleniumClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/../myseleniumproject/src/test/java/com/myfirstproject/FirstSeleniumClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myseleniumproject/target/test-classes/com/myfirstproject/Day01_BasicNavigations.class" beforeDir="false" afterPath="$PROJECT_DIR$/../myseleniumproject/target/test-classes/com/myfirstproject/Day01_BasicNavigations.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myseleniumproject/src/test/java/com/myfirstproject/FirstSeleniumClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myseleniumproject/target/test-classes/com/myfirstproject/Day01_BasicNavigations.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../myseleniumproject/target/test-classes/com/myfirstproject/Day02_FirefoxBrowserDemo.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../myseleniumproject/target/test-classes/com/myfirstproject/Day02_GetPageSource.class" beforeDir="false" afterPath="$PROJECT_DIR$/../myseleniumproject/target/test-classes/com/myfirstproject/Day02_GetPageSource.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../myseleniumproject/target/test-classes/com/myfirstproject/Day02_ThreadSleep.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myseleniumproject/target/test-classes/com/myfirstproject/Day02_VerifyTitleTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myseleniumproject/target/test-classes/com/myfirstproject/Day02_VerifyURLTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myseleniumproject/target/test-classes/com/myfirstproject/Day02_VerifyTitleTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../myseleniumproject/target/test-classes/com/myfirstproject/Day02_VerifyTitleTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myseleniumproject/target/test-classes/com/myfirstproject/Day02_VerifyURLTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../myseleniumproject/target/test-classes/com/myfirstproject/Day02_VerifyURLTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../myseleniumproject/target/test-classes/com/myfirstproject/FirstSeleniumClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/../myseleniumproject/target/test-classes/com/myfirstproject/FirstSeleniumClass.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../mytestNGproject_1/mytestNGproject_1.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/TestCenterPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/TestCenterPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/runners/Runners.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runners/Runners.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefinitions/CommonStepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/CommonStepDefinitions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefinitions/TestCenterStepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/TestCenterStepDefinitions.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../testNGframework/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../testNGframework/.idea/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../testNGframework/.idea/compiler.xml" beforeDir="false" />
@@ -188,6 +194,11 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/slites" />
+    </key>
+  </component>
   <component name="RunManager" selected="JUnit.Runners">
     <configuration name="Scenario: TC01 drag and drop" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
