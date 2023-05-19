@@ -20,3 +20,8 @@ import org.junit.runner.RunWith;
 )
 public class Runners {
 }
+// driver.get --> open
+// assert --> should, shouldHave, shouldBe
+
+// open("URL")
+// cucumberda rakam yazdığımız zaman veya "" kullandığımız zaman bunu dinamik olarak algılıyor.
